@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Admin\.nuget\packages\;C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages;D:\Components\Offline Packages;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.1.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Admin\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\DevExpress 20.2\Components\Offline Packages\" />
+    <SourceRoot Include="D:\Components\Offline Packages\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="D:\Components\Offline Packages\devexpress.data.desktop\22.2.4\build\netcoreapp3.0\DevExpress.Data.Desktop.props" Condition="Exists('D:\Components\Offline Packages\devexpress.data.desktop\22.2.4\build\netcoreapp3.0\DevExpress.Data.Desktop.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgDevExpress_Data Condition=" '$(PkgDevExpress_Data)' == '' ">D:\Components\Offline Packages\devexpress.data\22.2.4</PkgDevExpress_Data>
+    <PkgDevExpress_Utils Condition=" '$(PkgDevExpress_Utils)' == '' ">D:\Components\Offline Packages\devexpress.utils\22.2.4</PkgDevExpress_Utils>
+    <PkgDevExpress_Win_Navigation Condition=" '$(PkgDevExpress_Win_Navigation)' == '' ">D:\Components\Offline Packages\devexpress.win.navigation\22.2.4</PkgDevExpress_Win_Navigation>
+  </PropertyGroup>
+</Project>
